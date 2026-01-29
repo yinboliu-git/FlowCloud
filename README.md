@@ -164,7 +164,7 @@ The framework supports:
 - **Simulation_2D**: Simulated 2D spatial-temporal data
 - **Ambystoma_2D**: Ambystoma developmental data (2D)
 - **DrosophilaEmbryo_3D**: Drosophila embryo development (3D)
-- **Human_3D**: Human tissue spatial-temporal data (3D)
+- **Human_3D**: Human spatial-temporal data (3D)
 
 ## Citation
 
