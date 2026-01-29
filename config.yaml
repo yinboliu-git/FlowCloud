@@ -1,0 +1,31 @@
+# Training Configuration
+training:
+  epochs: 20
+  device: "cuda:0"  # Will use CPU if CUDA unavailable
+  batch_size: 1
+  learning_rate: 0.001
+
+# Data Paths (relative to project root)
+data:
+  predata_dir: "./predata"
+  save_dir: "./save_data"
+
+# Dataset Configurations
+datasets:
+  simulation_2d:
+    data_file: "Simulation_2D.pt"
+    epochs: 2000
+  ambystoma_2d:
+    data_file: "Ambystoma_2D.pt"
+    epochs: 10
+  drosophila_3d:
+    data_file: "DrosophilaEmbryo_3D.pt"
+    epochs: 20
+  human_3d:
+    data_file: "Human_3D.pt"
+    epochs: 10
+
+# Model Configuration
+model:
+  latent_dim: 128
+  hidden_dim: 256
