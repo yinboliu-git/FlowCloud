@@ -86,22 +86,12 @@ datasets:
 
 Train on different datasets using the provided scripts:
 
-**2D Datasets:**
 ```bash
 # Simulated 2D data
 python run2D_sim.py --config config.yaml --dataset simulation_2d
 
 # Ambystoma 2D data
 python run2D_Amby.py --config config.yaml --dataset ambystoma_2d
-```
-
-**3D Datasets:**
-```bash
-# Drosophila embryo 3D data
-python run3D_Dros.py --config config.yaml --dataset drosophila_3d
-
-# Human 3D data
-python run3D_Human.py --config config.yaml --dataset human_3d
 ```
 
 ### Output
