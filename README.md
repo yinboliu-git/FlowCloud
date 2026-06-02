@@ -180,4 +180,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-For questions or issues, please open an issue on the GitHub repository.
+For questions or issues, please open an issue on the GitHub repository. If you have any questions about this code, please contact me via email at stuyinboliu@qq.com.
