@@ -69,7 +69,7 @@ Edit `config.yaml` to set:
 Example:
 ```yaml
 training:
-  epochs: 20
+  epochs: 20000  (>=10000)
   device: "cuda:0"
 
 data:
@@ -79,8 +79,10 @@ data:
 datasets:
   simulation_2d:
     data_file: "Simulation_2D.pt"
-    epochs: 2000
+    epochs: 20000 (>=10000)
 ```
+
+Note: It must be noted that due to slow convergence, your training epochs must be greater than or equal to 10,000.
 
 ### Training
 
@@ -104,6 +106,8 @@ Training produces:
 - `test_true_data.pkl`: Ground truth test data
 - `test_prediction_data.pkl`: Model predictions
 - Visualization GIFs showing trajectory evolution
+
+Note: A set of 'logs' generated during the training process are placed in the log folder. If you encounter any issues during training, you can refer to these logs as a priority.
 
 ## Evaluation Metrics
 
@@ -154,7 +158,6 @@ The framework supports:
 - **Simulation_2D**: Simulated 2D spatial-temporal data
 - **Ambystoma_2D**: Ambystoma developmental data (2D)
 - **DrosophilaEmbryo_3D**: Drosophila embryo development (3D)
-- **Human_3D**: Human spatial-temporal data (3D)
 
 ## Citation
 
