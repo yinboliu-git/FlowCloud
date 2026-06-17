@@ -83,6 +83,7 @@ datasets:
 ```
 
 Note: It must be noted that due to slow convergence, your training epochs must be greater than or equal to 10,000.
+Note: The FlowCloud model does not perform well with high-dimensional gene data; it is recommended that the number of genes be kept below 50 (if cell types are also included as reconstruction targets, the combined total should ideally be under 50 as well).
 
 ### Training
 
